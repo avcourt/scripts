@@ -2,13 +2,15 @@
 
 Creates a README with info about each script in this directory
 
-## create-readme.sh
+## Scripts
+
+### [create-readme.sh](create-readme.sh)
 
  Usage: `create-readme`
 
  - creates a readme with a description of each script
 
-## trim-vid.sh
+### [trim-vid.sh](trim-vid.sh)
 
  Usage: `trim-vid <input.vid> <time in x:x:x>`
 

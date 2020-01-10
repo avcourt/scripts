@@ -13,9 +13,10 @@ fi
 
 printf "# create-readme\n\n" > $README
 printf "Creates a README with info about each script in this directory\n" >> $README
+printf "\n## Scripts\n" >> $README
 
 for f in *.sh; do
-    printf "\n## $f\n\n" >> $README
+    printf "\n### [$f]($f)\n\n" >> $README
     #echo "\`\`\`" >> $README
     sed -n '/^##/p' "$f" | tr -d '#' >> $README
     # printf "\`\`\`\n\n" >> $README
