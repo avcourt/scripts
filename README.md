@@ -9,6 +9,7 @@ Creates a README with info about each script in this directory
  Usage: `create-readme`
 
  - creates a readme with a description of each script
+***
 
 ### [trim-vid.sh](trim-vid.sh)
 
@@ -16,3 +17,13 @@ Creates a README with info about each script in this directory
 
  - Trims the end off of a video
  - prompts for removal of orignal and renaming of trimmed version
+***
+
+### [wallamaker.sh](wallamaker.sh)
+
+ Usage: `wallamaer.sh`
+
+ - creates a readme and thumbnails of all wallpapers in `$CWD`
+ - run `wallamaker.sh` in a flat directory containing wallpapers
+ - more info found [here](https://github.com/avcourt/wallamaker)
+***
