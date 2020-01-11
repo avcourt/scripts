@@ -1,6 +1,6 @@
 # create-readme
 
-Creates a README with info about each script in this directory
+Creates a README with info about each script in `$CWD`
 
 ## Scripts
 
