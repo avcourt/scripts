@@ -34,8 +34,8 @@ echo -e "![contact sheet](contact-sheet.jpg)" >> README.md
 for image in hi_res/*
 do
     {
-        echo -e "\n### [$image]($image)" >> README.md
-        echo -e "\n![$image]($image)" >> README.md
+        echo -e "\n### [$image]($image)"
+        echo -e "\n![$image]($image)"
         echo -e "\n***"
     } >> README.md
 done
