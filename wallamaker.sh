@@ -1,7 +1,7 @@
 #!/bin/bash
-## Usage: `wallamaer.sh`
+## Usage: `wallamaker.sh`
 ##
-## - creates a readme and thumbnails of all wallpapers in `$CWD`
+## - creates a readme, contact sheet and thumbnails of all wallpapers in `$PWD`
 ## - run `wallamaker.sh` in a flat directory containing wallpapers
 ## - more info found [here](https://github.com/avcourt/wallamaker)
 
