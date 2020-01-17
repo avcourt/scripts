@@ -5,7 +5,8 @@
 ## - prompts for removal of original and renaming of trimmed version
 
 if [ $# -ne 2 ]; then
-    echo "Usage: trim-vid <input.vid> <time in x:x:x>"
+    echo "Usage: trim-vid <input.vid> <time>"
+    echo "  <time> in sexagesimal(h:m:s) or seconds"
     exit 1
 fi
 
